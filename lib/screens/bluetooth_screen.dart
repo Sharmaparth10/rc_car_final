@@ -4,7 +4,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bluetooth_serial/flutter_bluetooth_serial.dart';
-import 'map_screen.dart'; // Import your MapScreen
+import 'map_screen.dart';
 
 class BluetoothScreen extends StatefulWidget {
   @override

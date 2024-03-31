@@ -279,7 +279,7 @@ class _MapScreenState extends State<MapScreen> {
 
     String checkpointsInfo = 'Checkpoints:\n';
     for (int i = 0; i < destinationMarkers.length; i++) {
-      LatLng checkpoint = destinationMarkers[i].point as LatLng;
+      LatLng checkpoint = destinationMarkers[i].point;
       checkpointsInfo +=
           'Checkpoint ${i + 1}: Lat: ${checkpoint.latitude}, Lng: ${checkpoint.longitude}\n';
     }
